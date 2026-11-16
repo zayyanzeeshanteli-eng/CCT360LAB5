@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recovery Ritual - Lab 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="page-body">
+
+    <div class="container">
+
+        <h1>Recovery Ritual</h1>
+
+        <p class="intro">
+            A sound and visual journey through four stages of post-workout recovery.
+        </p>
+
+        <div class="sound-box">
+
+            <h2>Soundscape</h2>
+
+            <audio id="soundscape" controls preload="metadata">
+                <source src="audio/recovery-ritual.mp3" type="audio/mpeg">
+                Your browser does not support this audio element.
+            </audio>
+
+            <p id="audio-status">Press play to begin.</p>
+
+        </div>
+
+        <div class="visual-box">
+
+            <h2 id="scene-title">Sauna</h2>
+
+            <img
+                id="scene-image"
+                src="images/sauna.png"
+                alt="Empty wooden sauna room">
+
+            <p id="scene-text">
+                Water hits the hot sauna rocks and begins the recovery routine.
+            </p>
+
+            <div class="scene-buttons">
+                <button class="scene-button" id="sauna-button">Sauna</button>
+                <button class="scene-button" id="steam-button">Steam Room</button>
+                <button class="scene-button" id="jacuzzi-button">Jacuzzi</button>
+                <button class="scene-button" id="cold-button">Cold Plunge</button>
+            </div>
+
+        </div>
+
+        <div class="about-box">
+
+            <h2>About the Project</h2>
+
+            <p>
+                This project combines a soundscape with an interactive visual experience.
+                As the audio moves through each recovery stage, the image, heading,
+                description, page colour, and selected button change automatically.
+            </p>
+
+            <p>
+                The buttons can also be used to jump directly to each part of the soundscape.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
